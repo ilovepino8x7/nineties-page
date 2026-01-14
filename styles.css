@@ -3,9 +3,39 @@ body {
     text-align: center;
 }
 img {
-    max-width: 80%;
+    max-width: 100%;
+    margin: 10px;
+    margin-bottom: -40px;
 }
-p {
+h2 {
     color: #33FFCC;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-weight: 100;
+}
+#foot {
+    width: 100%;
+    border: dotted aquamarine 5px;
+    margin: 0 auto;
+}
+.lil-button {
+    width: 10%;
+    display: inline-block;
+    margin: 2px;
+}
+#welcome {
+    border: dashed yellow 4px; 
+    width: 100%;
+    margin: 0 auto;
+}
+#inner-border {
+    border: dashed rgb(255, 13, 227) 4px;
+}
+main {
+    border: dashed rgb(179, 255, 0) 3px;
+    width: 80%;
+    padding: 0px 10px;
+    padding-left: 0px;
+    padding-bottom: -1px;
+    margin: 0 auto;
 }
