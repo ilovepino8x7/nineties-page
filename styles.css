@@ -2,7 +2,7 @@ body {
     background-image: url(bg.jpg);
     text-align: center;
 }
-img {
+#logo {
     max-width: 100%;
     margin: 10px;
     margin-bottom: -40px;
@@ -17,11 +17,17 @@ h2 {
     width: 100%;
     border: dotted aquamarine 5px;
     margin: 0 auto;
+    padding-top: 15px;
+}
+#fire {
+    width: 100%;
+    margin: 0 auto;
 }
 .lil-button {
     width: 10%;
     display: inline-block;
     margin: 2px;
+    padding-bottom: 3px;
 }
 #welcome {
     border: dashed yellow 4px; 
@@ -38,4 +44,42 @@ main {
     padding-left: 0px;
     padding-bottom: -1px;
     margin: 0 auto;
+}
+.copy {
+    color: aliceblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-weight: 100;
+    padding-top: -5px;
+    margin-top: -20px;
+    display: block;
+}
+#muz-info {
+    border:rgb(0, 8, 255) 3px solid;
+    padding-bottom: 15px;
+    padding-top: -15px;
+    margin-right: -7px;
+}
+
+#info {
+    color:rgb(194, 253, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+#title-info {
+    margin-bottom: 10px;
+}
+#muz-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#muz-content img {
+    margin-left: 450px;
+}
+#muz-content p {
+    margin-right: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
