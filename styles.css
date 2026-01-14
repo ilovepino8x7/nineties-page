@@ -83,3 +83,7 @@ main {
     margin-top: auto;
     margin-bottom: auto;
 }
+#welcome-pc {
+    display: block;
+    margin: 0 auto;
+}
